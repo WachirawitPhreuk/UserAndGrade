@@ -1,0 +1,32 @@
+public class User {
+    public string InputName;
+    public string InputLastName;
+    public string InputID;
+    public string InputGrade;
+
+    public User(string InputName, 
+    string InputLastName,
+    string InputID,
+    string InputGrade) {
+        this.InputName = InputName;
+        this.InputLastName = InputLastName;
+        this.InputID = InputID;
+        this.InputGrade = InputGrade;
+    }
+
+    public string PrintName() {
+        return this.InputName;
+    }
+
+    public string PrintLastName() {
+        return this.InputLastName;
+    }
+
+    public string PrintID() {
+        return this.InputID;
+    }
+
+    public string PrintGrade() {
+        return this.InputGrade;
+    }
+}
