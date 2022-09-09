@@ -1,0 +1,51 @@
+  public static int ConvertStringToInt(string value) {
+        if (int.TryParse(value, out int number)) {
+            return number;
+         }
+
+       console.WriteLine("Please input decimal data."); 
+    }
+
+    public static string ConvertScoreToGrade(int score) {
+        if (score > 100) { 
+            return "Please input data 0 - 100"; }
+
+{
+            if (score <= 100 && score >= 80)
+        console.WriteLine("Grade A");
+}
+
+{
+            if (score <= 80 && score >= 75)
+        console.WriteLine("Grade B+");
+}
+
+{
+            if (score <= 75 && score >= 70)
+        console.WriteLine("Grade B");
+}
+
+{
+            if (score <= 70 && score >= 65)
+        console.WriteLine("Grade C+");
+}
+
+{
+            if (score <= 65 && score >= 60)
+        console.WriteLine("Grade C");
+}
+
+{
+            if (score <= 60 && score >= 55)
+        console.WriteLine("Grade D+");
+}
+
+{
+            if (score <= 55 && score >= 50)
+        console.WriteLine("Grade D");
+}
+
+{
+            if (score <= 49 && score >= 0)
+        console.WriteLine("Grade F");
+}
